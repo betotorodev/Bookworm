@@ -11,6 +11,7 @@
 		18EE9FEF289089AE00294628 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE9FEE289089AE00294628 /* ContentView.swift */; };
 		18EE9FF1289089B000294628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EE9FF0289089B000294628 /* Assets.xcassets */; };
 		18EE9FF4289089B000294628 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EE9FF3289089B000294628 /* Preview Assets.xcassets */; };
+		18EE9FFC28908E7200294628 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE9FFB28908E7200294628 /* BindingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		18EE9FEE289089AE00294628 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18EE9FF0289089B000294628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18EE9FF3289089B000294628 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18EE9FFB28908E7200294628 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		18EE9FEB289089AE00294628 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				18EE9FFA28908AE300294628 /* exercises */,
 				18EE9FEC289089AE00294628 /* BookwormApp.swift */,
 				18EE9FEE289089AE00294628 /* ContentView.swift */,
 				18EE9FF0289089B000294628 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				18EE9FF3289089B000294628 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18EE9FFA28908AE300294628 /* exercises */ = {
+			isa = PBXGroup;
+			children = (
+				18EE9FFB28908E7200294628 /* BindingView.swift */,
+			);
+			path = exercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				18EE9FEF289089AE00294628 /* ContentView.swift in Sources */,
 				18EE9FED289089AE00294628 /* BookwormApp.swift in Sources */,
+				18EE9FFC28908E7200294628 /* BindingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
