@@ -18,6 +18,8 @@
 		18EEA006289181E500294628 /* ExampleOfFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA005289181E500294628 /* ExampleOfFetch.swift */; };
 		18EEA0092891884900294628 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA0082891884900294628 /* AddBookView.swift */; };
 		18EEA00B2891A66F00294628 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA00A2891A66F00294628 /* RatingView.swift */; };
+		18EEA00D2891DD3400294628 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA00C2891DD3400294628 /* EmojiRatingView.swift */; };
+		18EEA00F2891E1AD00294628 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA00E2891E1AD00294628 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		18EEA005289181E500294628 /* ExampleOfFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOfFetch.swift; sourceTree = "<group>"; };
 		18EEA0082891884900294628 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		18EEA00A2891A66F00294628 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		18EEA00C2891DD3400294628 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		18EEA00E2891E1AD00294628 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 			children = (
 				18EEA0082891884900294628 /* AddBookView.swift */,
 				18EEA00A2891A66F00294628 /* RatingView.swift */,
+				18EEA00C2891DD3400294628 /* EmojiRatingView.swift */,
+				18EEA00E2891E1AD00294628 /* DetailView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -182,10 +188,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EEA00D2891DD3400294628 /* EmojiRatingView.swift in Sources */,
 				18EEA006289181E500294628 /* ExampleOfFetch.swift in Sources */,
 				18EE9FEF289089AE00294628 /* ContentView.swift in Sources */,
 				18EE9FED289089AE00294628 /* BookwormApp.swift in Sources */,
 				18EEA00B2891A66F00294628 /* RatingView.swift in Sources */,
+				18EEA00F2891E1AD00294628 /* DetailView.swift in Sources */,
 				18EEA0092891884900294628 /* AddBookView.swift in Sources */,
 				18EE9FFE289093A100294628 /* TextEditorView.swift in Sources */,
 				18EE9FFC28908E7200294628 /* BindingView.swift in Sources */,
