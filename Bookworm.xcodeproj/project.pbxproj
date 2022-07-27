@@ -17,6 +17,7 @@
 		18EEA0042890959400294628 /* DataControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA0032890959400294628 /* DataControler.swift */; };
 		18EEA006289181E500294628 /* ExampleOfFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA005289181E500294628 /* ExampleOfFetch.swift */; };
 		18EEA0092891884900294628 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA0082891884900294628 /* AddBookView.swift */; };
+		18EEA00B2891A66F00294628 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA00A2891A66F00294628 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		18EEA0032890959400294628 /* DataControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataControler.swift; sourceTree = "<group>"; };
 		18EEA005289181E500294628 /* ExampleOfFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOfFetch.swift; sourceTree = "<group>"; };
 		18EEA0082891884900294628 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		18EEA00A2891A66F00294628 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				18EEA0082891884900294628 /* AddBookView.swift */,
+				18EEA00A2891A66F00294628 /* RatingView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				18EEA006289181E500294628 /* ExampleOfFetch.swift in Sources */,
 				18EE9FEF289089AE00294628 /* ContentView.swift in Sources */,
 				18EE9FED289089AE00294628 /* BookwormApp.swift in Sources */,
+				18EEA00B2891A66F00294628 /* RatingView.swift in Sources */,
 				18EEA0092891884900294628 /* AddBookView.swift in Sources */,
 				18EE9FFE289093A100294628 /* TextEditorView.swift in Sources */,
 				18EE9FFC28908E7200294628 /* BindingView.swift in Sources */,
