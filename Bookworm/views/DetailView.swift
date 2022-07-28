@@ -40,6 +40,11 @@ struct DetailView: View {
           .clipShape(Capsule())
           .offset(x: -5, y: -5)
       }
+      Text(book.date?.formatted(date: .abbreviated, time: .shortened) ?? "\(Date.now.formatted(date: .abbreviated, time: .shortened))")
+        .padding(4)
+        .font(.subheadline)
+        .foregroundColor(.secondary)
+      
       Text(book.author ?? "Unknown author")
         .font(.title)
         .foregroundColor(.secondary)
