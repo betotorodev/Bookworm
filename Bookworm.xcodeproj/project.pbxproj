@@ -20,6 +20,7 @@
 		18EEA00B2891A66F00294628 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA00A2891A66F00294628 /* RatingView.swift */; };
 		18EEA00D2891DD3400294628 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA00C2891DD3400294628 /* EmojiRatingView.swift */; };
 		18EEA00F2891E1AD00294628 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA00E2891E1AD00294628 /* DetailView.swift */; };
+		18EEA0122892D62A00294628 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA0112892D62A00294628 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		18EEA00A2891A66F00294628 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		18EEA00C2891DD3400294628 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		18EEA00E2891E1AD00294628 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		18EEA0112892D62A00294628 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		18EE9FEB289089AE00294628 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				18EEA0102892D61300294628 /* utils */,
 				18EEA0072891882B00294628 /* views */,
 				18EE9FFA28908AE300294628 /* exercises */,
 				18EE9FFF289094F300294628 /* CoreData */,
@@ -116,6 +119,14 @@
 				18EEA00E2891E1AD00294628 /* DetailView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		18EEA0102892D61300294628 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				18EEA0112892D62A00294628 /* Extensions.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 				18EEA00B2891A66F00294628 /* RatingView.swift in Sources */,
 				18EEA00F2891E1AD00294628 /* DetailView.swift in Sources */,
 				18EEA0092891884900294628 /* AddBookView.swift in Sources */,
+				18EEA0122892D62A00294628 /* Extensions.swift in Sources */,
 				18EE9FFE289093A100294628 /* TextEditorView.swift in Sources */,
 				18EE9FFC28908E7200294628 /* BindingView.swift in Sources */,
 				18EEA0042890959400294628 /* DataControler.swift in Sources */,
